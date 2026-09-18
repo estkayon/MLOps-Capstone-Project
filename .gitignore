@@ -4,6 +4,11 @@ __pycache__/
 *$py.class
 
 projectflow.txt
+credentials.txt
+exp1.ipynb
+exp2_bow_vs_tfidf.py
+exp3_lor_bow_hp.py
+local_s3
 
 # C extensions
 *.so
