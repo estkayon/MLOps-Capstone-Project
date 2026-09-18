@@ -3,14 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-projectflow.txt
-credentials.txt
-exp1.ipynb
-exp2_bow_vs_tfidf.py
-exp3_lor_bow_hp.py
-local_s3
-models/
-data/
+
 
 
 # C extensions
@@ -226,3 +219,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+projectflow.txt
+credentials.txt
+exp1.ipynb
+exp2_bow_vs_tfidf.py
+exp3_lor_bow_hp.py
+local_s3
+models/
+data/external
+data/interim
+data/processed
+data/raw
