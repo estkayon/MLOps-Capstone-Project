@@ -86,6 +86,7 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = dagshub_token
 dagshub_url = "https://dagshub.com"
 repo_owner = "estiakayon"
 repo_name = "MLOps-Capstone-Project"
+
 # Set up MLflow tracking URI
 mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 # # -------------------------------------------------------------------------------------
@@ -115,7 +116,7 @@ PREDICTION_COUNT = Counter(
 model_name = "my_model"
 def get_latest_model_version(model_name):
     client = mlflow.MlflowClient()
-    latest_version = client.get_latest_versions(model_name, stages=["Staging"])
+    latest_version = client.get_latest_versions(model_name, stages=["Production"])
     if not latest_version:
         latest_version = client.get_latest_versions(model_name, stages=["None"])
     return latest_version[0].version if latest_version else None
