@@ -131,8 +131,7 @@ Experiments are tracked remotely on **DagsHub-hosted MLflow**, meaning every run
 
 | Model | Accuracy | Precision | Recall | ROC-AUC |
 |---|---|---|---|---|
-| Logistic Regression (TF-IDF) | `--` | `--` | `--` | `--` |
-| _Add your best run here_ | | | | |
+| Logistic Regression (TF-IDF) | `70` | `69` | `70` | `71` |
 
 ---
 
